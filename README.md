@@ -25,7 +25,6 @@ Installing Tailwind locally is better for final production. Use these [instructi
    IMPORTANT: This file has to be rebuilt every time you change your 'styles.css'. You can use the --watch flag to make the command keep
    listening for changes. It will stay running in the terminal:
    `npx @tailwind/cli -i ./styles.css -o ./tailwind/styles.css --watch`
-4. Start using Tailwind in your HTML: https://tailwindcss.com/docs/styling-with-utility-classes
 
 ### Vite (for frameworks like Laravel, SvelteKit, React Router, Nuxt, SolidJS, etc)
 
@@ -34,3 +33,10 @@ See [instructions](https://tailwindcss.com/docs/installation/tailwind-cli).
 ### PostCSS (for frameworks like Next.js and Angular)
 
 See [instructions](https://tailwindcss.com/docs/installation/tailwind-cli).
+
+
+---------
+
+Start using Tailwind! You can slap the Tailwind classes into the `classes=""` tag inside your HTML, or you can create your own classes that use Tailwind's classes.
+
+https://tailwindcss.com/docs/styling-with-utility-classes
