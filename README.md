@@ -2,24 +2,20 @@
 
 Tailwind can be used in 2 main ways: using an HTML <link> tag to reference a copy on someone else's server (typically a CDN (Content Delivery Network)), or installing Tailwind in the project.
 
-### Option A: borrow Tailwind from a public CDN
+## Option A: borrow Tailwind from a public CDN
 
-Include this in the <head> section of the HTML: `<script src="https://cdn.tailwindcss.com"></script>`
+Include this in the <head> section of the HTML: `<script src="https://cdn.tailwindcss.com"></script>`. Importing from CDN is recommended for testing and drafting. Final production should use local Tailwind.
 
-Importing from CDN is recommended for testing and drafting. Final production should use local Tailwind.
+## Option B: Installing Tailwind in the project
 
-### Option B: Installing Tailwind in the project
-
-> Installing Tailwind locally is better for final production.
-
-Use these instructions (reproduced below): https://tailwindcss.com/docs/installation/tailwind-cli
+Installing Tailwind locally is better for final production. Use these [instructions](https://tailwindcss.com/docs/installation/tailwind-cli) (reproduced below):
 
 1. Install Node.js
 2. Reboot VSCode if opened
 3. Open a terminal in the root directory
 4. Install via one of the methods below
 
-#### CLI (for use with raw HTML, CSS, JS)
+### CLI (for use with raw HTML, CSS, JS)
 
 1. Run `npm install tailwindcss @tailwindcss/cli`
 2. Copy `@import "tailwindcss";` to the top of your style.css file to be able to use Tailwind directly in your CSS styles,
@@ -31,10 +27,10 @@ Use these instructions (reproduced below): https://tailwindcss.com/docs/installa
    `npx @tailwind/cli -i ./styles.css -o ./tailwind/styles.css --watch`
 4. Start using Tailwind in your HTML: https://tailwindcss.com/docs/styling-with-utility-classes
 
-#### Vite (for frameworks like Laravel, SvelteKit, React Router, Nuxt, SolidJS, etc)
+### Vite (for frameworks like Laravel, SvelteKit, React Router, Nuxt, SolidJS, etc)
 
 See [instructions](https://tailwindcss.com/docs/installation/tailwind-cli).
 
-#### PostCSS (for frameworks like Next.js and Angular)
+### PostCSS (for frameworks like Next.js and Angular)
 
 See [instructions](https://tailwindcss.com/docs/installation/tailwind-cli).
