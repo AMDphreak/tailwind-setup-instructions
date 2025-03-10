@@ -1,7 +1,4 @@
-# tailwind-setup-instructions
-How to set up Tailwind locally for website
-
-## How to set up Tailwind.css
+# How to use Tailwind
 
 Tailwind can be used in 2 main ways: using an HTML <link> tag to reference a copy on someone else's server (typically a CDN (Content Delivery Network)), or installing Tailwind in the project.
 
