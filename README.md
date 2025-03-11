@@ -42,13 +42,9 @@ CLI (for use with raw HTML, CSS, JS):
    listening for changes. It will stay running in the terminal:
    `npx @tailwind/cli -i ./styles.css -o ./tailwind/styles.css --watch`
 
-Vite (for frameworks like Laravel, SvelteKit, React Router, Nuxt, SolidJS, etc):
+Vite (for frameworks like Laravel, SvelteKit, React Router, Nuxt, SolidJS, etc): [source](https://tailwindcss.com/docs/installation/using-vite).
 
-[source](https://tailwindcss.com/docs/installation/using-vite).
-
-PostCSS (for frameworks like Next.js and Angular):
-
-[source](https://tailwindcss.com/docs/installation/using-postcss).
+PostCSS (for frameworks like Next.js and Angular): [source](https://tailwindcss.com/docs/installation/using-postcss).
 
 
 ---------
