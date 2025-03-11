@@ -22,17 +22,17 @@ Include this in the <head> section of the HTML: `<script src="https://cdn.tailwi
 
 ## Option B: Install Tailwind in the project
 
-Installing Tailwind locally provides faster loading and guarantees your website looks the same, even after Tailwind releases an update. Use these [instructions](https://tailwindcss.com/docs/installation/tailwind-cli) (reproduced below).
+Installing Tailwind locally provides faster loading and guarantees your website looks the same, even if Tailwind releases an update that changes their classes. Tailwind scans your HTML and CSS files and generates a new Tailwind CSS file that contains only the subset of features you use from Tailwind, ensuring that your website loads only what you need. Use these [instructions](https://tailwindcss.com/docs/installation/tailwind-cli) (reproduced below).
 
 1. Install Node.js
-2. Reboot VSCode if open
-3. Open a terminal in the root directory
-4. Install via one of the methods below
+2. Reboot VSCode if open, to reload PATH variables that Node installer modified.
+3. Open a terminal and navigate to the project main directory
+4. Install via one of the methods below...
 
 ### CLI (for use with raw HTML, CSS, JS)
 
 1. Run `npm install tailwindcss @tailwindcss/cli`
-2. Copy `@import "tailwindcss";` to the top of your style.css file to be able to use Tailwind directly in your CSS styles,
+2. Copy `@import "tailwindcss";` into the top of your style.css file to be able to use Tailwind directly in your CSS styles,
    then you can build your own complex classes or components using Tailwind, and mix and match with regular CSS.
 3. Build the Tailwind CSS file using the CLI interface:
    `npx @tailwind/cli -i ./styles.css -o ./tailwind/styles.css`
