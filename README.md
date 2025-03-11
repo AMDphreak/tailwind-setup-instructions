@@ -6,6 +6,20 @@ Tailwind can be used in 2 main ways: using a public CDN (content delivery networ
 
 Include this in the <head> section of the HTML: `<script src="https://cdn.tailwindcss.com"></script>`. Importing from CDN is recommended for testing and drafting. Final production should use local Tailwind.
 
+```html
+<html>
+   <head>
+      <script src="https://cdn.tailwindcss.com"></script>
+   </head>
+   <body>
+      <div class="insert tailwind classes here separated by spaces">
+         <div> Stuff </div>
+         <div> Stuff </div>
+      </div>
+   </body
+</html>
+```
+
 ## Option B: Installing Tailwind in the project
 
 Installing Tailwind locally is better for final production. Use these [instructions](https://tailwindcss.com/docs/installation/tailwind-cli) (reproduced below):
