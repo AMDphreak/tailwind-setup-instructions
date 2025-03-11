@@ -47,6 +47,4 @@ Installing Tailwind locally provides faster loading and guarantees your website 
 
 ---------
 
-Start using Tailwind! You can slap the Tailwind classes into the `classes=""` tag inside your HTML, or you can create your own classes that use Tailwind's classes.
-
-https://tailwindcss.com/docs/styling-with-utility-classes
+Start using Tailwind: https://tailwindcss.com/docs/styling-with-utility-classes
