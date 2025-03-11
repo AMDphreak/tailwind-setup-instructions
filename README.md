@@ -29,9 +29,7 @@ Installing Tailwind locally provides faster loading and guarantees your website 
 3. Open a terminal and navigate to the project main directory
 4. Install using the instructions below (tailored for our project).
 
-CLI (for use with raw HTML, CSS, JS):
-
-[source](https://tailwindcss.com/docs/installation/tailwind-cli)
+[CLI (for use with raw HTML, CSS, JS):](https://tailwindcss.com/docs/installation/tailwind-cli)
 
 1. Run `npm install tailwindcss @tailwindcss/cli`
 2. Copy `@import "tailwindcss";` into the top of your style.css file to be able to use Tailwind directly in your CSS styles,
@@ -42,9 +40,9 @@ CLI (for use with raw HTML, CSS, JS):
    listening for changes. It will stay running in the terminal:
    `npx @tailwind/cli -i ./styles.css -o ./tailwind/styles.css --watch`
 
-Vite (for frameworks like Laravel, SvelteKit, React Router, Nuxt, SolidJS, etc): [source](https://tailwindcss.com/docs/installation/using-vite).
+[Vite (for frameworks like Laravel, SvelteKit, React Router, Nuxt, SolidJS, etc):](https://tailwindcss.com/docs/installation/using-vite).
 
-PostCSS (for frameworks like Next.js and Angular): [source](https://tailwindcss.com/docs/installation/using-postcss).
+[PostCSS (for frameworks like Next.js and Angular):](https://tailwindcss.com/docs/installation/using-postcss).
 
 
 ---------
