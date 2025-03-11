@@ -43,8 +43,3 @@ Installing Tailwind locally provides faster loading and guarantees your website 
 [Vite (for frameworks like Laravel, SvelteKit, React Router, Nuxt, SolidJS, etc):](https://tailwindcss.com/docs/installation/using-vite).
 
 [PostCSS (for frameworks like Next.js and Angular):](https://tailwindcss.com/docs/installation/using-postcss).
-
-
----------
-
-Start using Tailwind: https://tailwindcss.com/docs/styling-with-utility-classes
