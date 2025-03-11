@@ -2,7 +2,7 @@
 
 Tailwind can be used in 2 main ways: using a public CDN (content delivery network) available online, or installing Tailwind in the project.
 
-## Option A: borrow Tailwind from a public CDN
+## Option A: Use a public CDN
 
 Include this in the <head> section of the HTML: `<script src="https://cdn.tailwindcss.com"></script>`. Importing from CDN is recommended for testing and drafting. Final production should use local Tailwind.
 
