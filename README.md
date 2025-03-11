@@ -20,9 +20,9 @@ Include this in the <head> section of the HTML: `<script src="https://cdn.tailwi
 </html>
 ```
 
-## Option B: Installing Tailwind in the project
+## Option B: Install Tailwind in the project
 
-Installing Tailwind locally is better for final production. Use these [instructions](https://tailwindcss.com/docs/installation/tailwind-cli) (reproduced below).
+Installing Tailwind locally provides faster loading and guarantees your website looks the same, even after Tailwind releases an update. Use these [instructions](https://tailwindcss.com/docs/installation/tailwind-cli) (reproduced below).
 
 1. Install Node.js
 2. Reboot VSCode if open
