@@ -1,4 +1,4 @@
-# How to use Tailwind
+# How to Set Up Tailwind
 
 Tailwind can be used in 2 main ways: using a public CDN (content delivery network) available online, or installing Tailwind in the project.
 
