@@ -4,7 +4,7 @@ Tailwind can be used in 2 main ways: using a public CDN (content delivery networ
 
 ## Option A: Use a public CDN
 
-Include this in the <head> section of the HTML: `<script src="https://cdn.tailwindcss.com"></script>`. Importing from CDN is recommended for testing and drafting. Final production should use local Tailwind.
+Include this in the <head> section of the HTML: `<script src="https://cdn.tailwindcss.com"></script>`. When you import the script, Tailwind's script scans your HTML file and imports the individual Tailwind CSS classes your page uses. Importing from CDN is recommended for testing and drafting. Final production should use local Tailwind. This option requires you to use Tailwind from the HTML file. Using lots of Tailwind will cause your HTML file to get visually messy and large. A cleaner way to do this is using Tailwind in your CSS file with your own class names that combine Tailwind classes. To do this, use option B.
 
 ```html
 <html>
@@ -22,11 +22,11 @@ Include this in the <head> section of the HTML: `<script src="https://cdn.tailwi
 
 ## Option B: Install Tailwind in the project
 
-Installing Tailwind locally provides faster loading and guarantees your website looks the same, even if Tailwind releases an update that changes their classes. Tailwind scans your HTML and CSS files and generates a new Tailwind CSS file that contains only the subset of features you use from Tailwind, ensuring that your website loads only what you need.
+Installing Tailwind locally provides faster loading, guarantees your website looks the same, even if Tailwind releases an update that changes their classes, and lets you clean up your HTML by moving the Tailwind classes into your CSS file, and create custom classes that combine Tailwind classes to create components. When you use the `@import` command in the CSS file, Tailwind scans your HTML and CSS files and generates a new Tailwind CSS file that contains only the subset of features you use from Tailwind, ensuring that your website loads only what you need.
 
 1. Install Node.js
 2. Reboot VSCode if open, to reload PATH variables that Node installer modified.
-3. Open a terminal and navigate to the project main directory
+3. Open a terminal and navigate to the project main directory.
 4. Install using the instructions below (tailored for our project).
 
 [CLI (for use with raw HTML, CSS, JS):](https://tailwindcss.com/docs/installation/tailwind-cli)
