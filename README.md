@@ -22,7 +22,7 @@ Include this in the <head> section of the HTML: `<script src="https://cdn.tailwi
 
 ## Option B: Install Tailwind in the project
 
-Installing Tailwind locally provides faster loading, guarantees your website looks the same, even if Tailwind releases an update that changes their classes, and lets you clean up your HTML by moving the Tailwind classes into your CSS file, and create custom classes that combine Tailwind classes to create components. When you use the `@import` command in the CSS file, Tailwind scans your HTML and CSS files and generates a new Tailwind CSS file that contains only the subset of features you use from Tailwind, ensuring that your website loads only what you need.
+Installing Tailwind locally provides faster loading, guarantees your website looks the same, even if Tailwind releases an update that changes their classes, and lets you clean up your HTML by moving the Tailwind classes into your CSS file and creating custom classes that combine Tailwind classes into logical components. When you use the `@import` command in the CSS file, Tailwind scans your HTML and CSS files and generates a new Tailwind CSS file that contains only the subset of features you use from Tailwind, ensuring that your website loads only what you need.
 
 1. Install Node.js
 2. Reboot VSCode if open, to reload PATH variables that Node installer modified.
