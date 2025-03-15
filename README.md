@@ -28,7 +28,7 @@ Prerequisites:
 
 - Install Node.js
 - Reboot VSCode if open, to reload PATH variables that Node installer modified.
-- Open a terminal and navigate to the project main directory.
+- Open a terminal in the project main directory.
 - Install using the instructions for the CLI option below (tailored for our project).
 
 Installation Processes:
