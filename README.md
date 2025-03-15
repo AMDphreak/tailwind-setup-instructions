@@ -1,6 +1,6 @@
 # How to Set Up Tailwind
 
-Tailwind can be used in 2 main ways: using a public CDN (content delivery network) over the internet, or installing Tailwind locally in the project.
+Tailwind can be used in 2 main ways: using a public CDN (content delivery network) over the internet, or installing Tailwind locally, in the project.
 
 ## Option A: Use a public CDN
 
