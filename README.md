@@ -24,22 +24,22 @@ Include this in the <head> section of the HTML: `<script src="https://cdn.tailwi
 
 Installing Tailwind locally provides faster loading, guarantees your website looks the same, even if Tailwind releases an update that changes their classes, and lets you clean up your HTML by moving the Tailwind classes into your CSS file and creating custom classes that combine Tailwind classes into logical components. When you use the `@import` command in the CSS file, Tailwind scans your HTML and CSS files and generates a new Tailwind CSS file that contains only the subset of features you use from Tailwind, ensuring that your website loads only what you need.
 
-1. Install Node.js
-2. Reboot VSCode if open, to reload PATH variables that Node installer modified.
-3. Open a terminal and navigate to the project main directory.
-4. Install using the instructions below (tailored for our project).
+- Install Node.js
+- Reboot VSCode if open, to reload PATH variables that Node installer modified.
+- Open a terminal and navigate to the project main directory.
+- Install using the instructions for the CLI option below (tailored for our project).
 
-[CLI (for use with raw HTML, CSS, JS):](https://tailwindcss.com/docs/installation/tailwind-cli)
+1. [CLI (for use with raw HTML, CSS, JS):](https://tailwindcss.com/docs/installation/tailwind-cli)
+  
+  - Run `npm install tailwindcss @tailwindcss/cli`
+  - Copy `@import "tailwindcss";` into the top of your style.css file to be able to use Tailwind directly in your CSS styles,
+     then you can build your own complex classes or components using Tailwind, and mix and match with regular CSS.
+  - Build the Tailwind CSS file using the CLI interface:
+     `npx @tailwind/cli -i ./styles.css -o ./tailwind/styles.css`
+     IMPORTANT: This file has to be rebuilt every time you change your 'styles.css'. You can use the --watch flag to make the command keep
+     listening for changes. It will stay running in the terminal:
+     `npx @tailwind/cli -i ./styles.css -o ./tailwind/styles.css --watch`
 
-1. Run `npm install tailwindcss @tailwindcss/cli`
-2. Copy `@import "tailwindcss";` into the top of your style.css file to be able to use Tailwind directly in your CSS styles,
-   then you can build your own complex classes or components using Tailwind, and mix and match with regular CSS.
-3. Build the Tailwind CSS file using the CLI interface:
-   `npx @tailwind/cli -i ./styles.css -o ./tailwind/styles.css`
-   IMPORTANT: This file has to be rebuilt every time you change your 'styles.css'. You can use the --watch flag to make the command keep
-   listening for changes. It will stay running in the terminal:
-   `npx @tailwind/cli -i ./styles.css -o ./tailwind/styles.css --watch`
+2. [Vite (for frameworks like Laravel, SvelteKit, React Router, Nuxt, SolidJS, etc):](https://tailwindcss.com/docs/installation/using-vite).
 
-[Vite (for frameworks like Laravel, SvelteKit, React Router, Nuxt, SolidJS, etc):](https://tailwindcss.com/docs/installation/using-vite).
-
-[PostCSS (for frameworks like Next.js and Angular):](https://tailwindcss.com/docs/installation/using-postcss).
+3. [PostCSS (for frameworks like Next.js and Angular):](https://tailwindcss.com/docs/installation/using-postcss).
